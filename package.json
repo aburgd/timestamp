@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/aburgd/timestamp/issues"
   },
-  "homepage": "https://github.com/aburgd/timestamp#README.md"
+  "homepage": "https://github.com/aburgd/timestamp#README.md",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.13.0",
+    "path": "^0.12.7"
+  }
 }
