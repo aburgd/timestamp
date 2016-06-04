@@ -1,0 +1,22 @@
+{
+  "name": "timestamp-ms",
+  "version": "1.0.0",
+  "description": "Gives a timestamp output in human-readable and unix formats",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aburgd/timestamp.git"
+  },
+  "keywords": [
+    "timestamp",
+    "microservice"
+  ],
+  "author": "Alec Burgdorf <aeburgd@gmail.com",
+  "bugs": {
+    "url": "https://github.com/aburgd/timestamp/issues"
+  },
+  "homepage": "https://github.com/aburgd/timestamp#README.md"
+}
