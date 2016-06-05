@@ -27,4 +27,7 @@
   "scripts": {
     "start": "node server.js"
   }
+  "engines": {
+    "node": "4.4.5"
+  }
 }
