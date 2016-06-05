@@ -8,7 +8,7 @@ var port = process.env.PORT || 3500
 app.set('port', port)
 app.use(express.static(path.resolve(__dirname, 'client')))
 app.get('/:timestamp', function(req, res) {
-    let time = moment(req.params.timestamp, 'MMMM DD, YYYY', true)
+    var time = moment(req.params.timestamp, 'MMMM DD, YYYY', true)
     if (!time.isValid()) time = moment.unix(req.params.timestamp)
     if (!time.isValid()) {
       res.json({
