@@ -2,7 +2,7 @@ var express = require("express")
 var path = require("path")
 var moment = require("moment")
 
-var app = express
+var app = express()
 var port = process.env.PORT || 3500
 
 app.set('port', port)
