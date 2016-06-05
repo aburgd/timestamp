@@ -1,6 +1,5 @@
 ## Timestamp Microservice
-
+---
 ### Usage:
-```https://<replace me>/December%2015,%202015```
-
-```https://<replace me>/1450137600```
+`https://https://hidden-crag-78313.herokuapp.com/December%2015,%202015`
+`https://https://hidden-crag-78313.herokuapp.com/1450137600`

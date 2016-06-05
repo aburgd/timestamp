@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <h2 id="what-is-this">What is this?</h2>
+    <p>Takes a string parameter in the URL and returns unix and human-readable
+      values, or else <code>null</code>.</p>
+    <h3 id="usage">Usage:</h3>
+    <pre><code>
+      `https://hidden-crag-78313.herokuapp.com/January 10, 2015`
+      `https://hidden-crag-78313.herokuapp.com/1420848000`
+    </code></pre>
+    <h3 id="example-response">Example Response:</h3>
+    <pre><code>
+      {
+        humanReadable: &quot;January 10, 2015&quot;,
+        unix: &quot;1420848000&quot;
+      }
+    </code></pre>
+  </body>
+</html>
